@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>Mobatek MobaXterm</Name>
+	<ID>Mobatek-MobaXterm</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>MobaXterm.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\SimonTatham\PuTTY</Path>
+		</Registry>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\Mobatek\MobaXterm</Path>
+		</Registry>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path>MobaXterm</Path>
+			<FileMask>MobaXterm.ini</FileMask>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path>MobaXterm</Path>
+			<FileMask>MobaXterm backup.zip</FileMask>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">MobaXterm\slash\etc</Path>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">MobaXterm\slash\var\log</Path>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">MobaXterm\slash\usr</Path>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">MobaXterm\home</Path>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
