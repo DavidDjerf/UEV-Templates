@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>Windows Command Processor</Name>
+	<ID>Microsoft-Windows-CMD</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>cmd.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<Registry>
+			<Path Recursive="true">Console</Path>
+		</Registry>
+	</Settings>
+</SettingsLocationTemplate>
