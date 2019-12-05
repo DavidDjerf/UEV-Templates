@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>Windows PowerShell ISE</Name>
+	<ID>Microsoft-Windows-Powershell_ISE</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>powershell_ise.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<File>
+			<Root>
+				<EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">Microsoft\Windows\PowerShell</Path>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">Microsoft_Corporation\powershell_ise.exe_StrongName_lw2v2vm3wmtzzpebq33gybmeoxukb04w\3.0.0.0</Path>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
