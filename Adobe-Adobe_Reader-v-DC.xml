@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2012/SettingsLocationTemplate">
+	<Name>Adobe Reader DC</Name>
+	<ID>Adobe-Adobe_Reader-v-DC</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>AcroRd32.exe</Filename>
+			<ProductVersion>
+				<Major Minimum="15" Maximum="15" />
+			</ProductVersion>
+		</Process>
+	</Processes>
+	<Settings>
+		<Registry>
+			<Path Recursive="true">Software\Adobe\Acrobat Reader\DC</Path>
+		</Registry>
+		<Registry>
+			<Path>Software\Adobe\CommonFiles\Usage\Reader DC</Path>
+		</Registry>
+		<Registry>
+			<Path Recursive="true">Software\Adobe\Adobe Synchronizer\DC</Path>
+		</Registry>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">Adobe\Acrobat\DC</Path>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
