@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>Putty - SSH, Telnet and Rlogin client</Name>
+	<ID>PuTTY-Putty_suite</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>putty.exe</Filename>
+		</Process>
+		<Process>
+			<Filename>pageant.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\SimonTatham\Putty</Path>
+		</Registry>
+	</Settings>
+</SettingsLocationTemplate>
