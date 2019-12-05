@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>Resource and Performance Monitor</Name>
+	<ID>Microsoft-Windows-perfmon</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>perfmon.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<Registry>
+			<Path>SOFTWARE\Microsoft\RPM</Path>
+		</Registry>
+		<File>
+			<Root>
+				<EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+			</Root>
+			<Path />
+			<FileMask>Resmon.ResmonCfg</FileMask>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
