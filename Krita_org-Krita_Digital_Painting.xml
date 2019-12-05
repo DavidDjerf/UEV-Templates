@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>Krita Digital Painting</Name>
+	<ID>Krita_org-Krita_Digital_Painting</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>krita.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">krita</Path>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+			</Root>
+			<Path />
+			<FileMask>klanguageoverridesrc</FileMask>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+			</Root>
+			<Path />
+			<FileMask>kritarc</FileMask>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
