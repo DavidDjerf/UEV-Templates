@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>Task Manager</Name>
+	<ID>Microsoft-Windows-Taskmgr</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>Taskmgr.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\Microsoft\Windows\CurrentVersion\TaskManager</Path>
+		</Registry>
+	</Settings>
+</SettingsLocationTemplate>
