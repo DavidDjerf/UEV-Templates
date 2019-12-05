@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>Windows PowerShell</Name>
+	<ID>Microsoft-Windows-Powershell</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>powershell.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<Registry>
+			<Path Recursive="true">Console</Path>
+		</Registry>
+		<File>
+			<Root>
+				<EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+			</Root>
+			<Path>Microsoft\Windows\PowerShell</Path>
+			<FileMask>StartupProfileData-Interactive</FileMask>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">Microsoft\Windows\PowerShell</Path>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
