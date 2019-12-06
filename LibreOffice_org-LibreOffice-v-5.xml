@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+<!--
+	OBS! It is not a typo with version 4 in the APPDATA-path.
+-->
+	<Name>LibreOffice 5</Name>
+	<ID>LibreOffice_org-LibreOffice-v-5</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>swriter.exe</Filename>
+			<ProductVersion>
+				<Major Minimum="4" Maximum="5" />
+			</ProductVersion>
+			<FileVersion>
+				<Major Minimum="4" Maximum="5" />
+			</FileVersion>
+		</Process>
+		<Process>
+			<Filename>sweb.exe</Filename>
+			<ProductVersion>
+				<Major Minimum="4" Maximum="5" />
+			</ProductVersion>
+			<FileVersion>
+				<Major Minimum="4" Maximum="5" />
+			</FileVersion>
+		</Process>
+		<Process>
+			<Filename>sdraw.exe</Filename>
+			<ProductVersion>
+				<Major Minimum="4" Maximum="5" />
+			</ProductVersion>
+			<FileVersion>
+				<Major Minimum="4" Maximum="5" />
+			</FileVersion>
+		</Process>
+		<Process>
+			<Filename>simpress.exe</Filename>
+			<ProductVersion>
+				<Major Minimum="4" Maximum="5" />
+			</ProductVersion>
+			<FileVersion>
+				<Major Minimum="4" Maximum="5" />
+			</FileVersion>
+		</Process>
+		<Process>
+			<Filename>smath.exe</Filename>
+			<ProductVersion>
+				<Major Minimum="4" Maximum="5" />
+			</ProductVersion>
+			<FileVersion>
+				<Major Minimum="4" Maximum="5" />
+			</FileVersion>
+		</Process>
+		<Process>
+			<Filename>soffice.exe</Filename>
+			<ProductVersion>
+				<Major Minimum="4" Maximum="5" />
+			</ProductVersion>
+			<FileVersion>
+				<Major Minimum="4" Maximum="5" />
+			</FileVersion>
+		</Process>
+		<Process>
+			<Filename>sbase.exe</Filename>
+			<ProductVersion>
+				<Major Minimum="4" Maximum="5" />
+			</ProductVersion>
+			<FileVersion>
+				<Major Minimum="4" Maximum="5" />
+			</FileVersion>
+		</Process>
+		<Process>
+			<Filename>scalc.exe</Filename>
+			<ProductVersion>
+				<Major Minimum="4" Maximum="5" />
+			</ProductVersion>
+			<FileVersion>
+				<Major Minimum="4" Maximum="5" />
+			</FileVersion>
+		</Process>
+	</Processes>
+	<Settings>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">LibreOffice\4\user</Path>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
