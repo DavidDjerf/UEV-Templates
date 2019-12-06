@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>Beyond Compare</Name>
+	<ID>Scooter_Software-Beyond_Compare-v4</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>BCompare.exe</Filename>
+			<ProductVersion>
+				<Major Minimum="4" Maximum="4" />
+			</ProductVersion>
+			<FileVersion>
+				<Major Minimum="4" Maximum="4" />
+			</FileVersion>
+		</Process>
+	</Processes>
+	<Settings>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">Scooter Software\Beyond Compare 4</Path>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
