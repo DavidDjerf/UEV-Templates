@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>TortoiseSVN client</Name>
+	<ID>TortoiseSVN-TortoiseSVN</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>TortoiseProc.exe</Filename>
+		</Process>
+		<Process>
+			<Filename>TortoiseMerge.exe</Filename>
+		</Process>
+		<Process>
+			<Filename>TortoiseProc.exe</Filename>
+		</Process>
+		<Process>
+			<Filename>TortoiseIDiff.exe</Filename>
+		</Process> 
+	</Processes>
+	<Settings>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\TortoiseSVN</Path>
+		</Registry>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\TortoiseMerge</Path>
+		</Registry>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">Subversion</Path>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">TortoiseSVN</Path>
+		</File> 
+	</Settings>
+</SettingsLocationTemplate>
