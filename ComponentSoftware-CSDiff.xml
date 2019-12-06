@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>ComponentSoftware - CSDiff</Name>
+	<ID>ComponentSoftware-CSDiff</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>CSDiff.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<Registry>
+			<Path Recursive="true">Software\ComponentSoftware</Path>
+			<Exclude>
+				<Path>CSDiffPath</Path>
+			</Exclude>
+		</Registry>
+	</Settings>
+</SettingsLocationTemplate>
