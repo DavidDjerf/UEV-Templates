@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>SumatraPDF</Name>
+	<ID>SumatraPDF-SumatraPDF</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>SumatraPDF.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">SumatraPDF</Path>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
