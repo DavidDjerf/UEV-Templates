@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>Mendeley MendeleyDesktop</Name>
+	<ID>Mendeley-MendeleyDesktop</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>MendeleyDesktop.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\Mendeley Ltd.\Mendeley Desktop\ExtraFields</Path>
+		</Registry>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\Mendeley Ltd.\Mendeley Desktop\Features</Path>
+		</Registry>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\Mendeley Ltd.\Mendeley Desktop\General</Path>
+		</Registry>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\Mendeley Ltd.\Mendeley Desktop\geometry</Path>
+		</Registry>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\Mendeley Ltd.\Mendeley Desktop\MendeleyWeb</Path>
+		</Registry>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\Mendeley Ltd.\Mendeley Desktop\toolbar</Path>
+		</Registry>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\Mendeley Ltd.\Mendeley Desktop\view</Path>
+		</Registry>
+	</Settings>
+</SettingsLocationTemplate>
