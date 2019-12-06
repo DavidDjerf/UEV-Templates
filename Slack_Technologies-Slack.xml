@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>Slack Technologies Slack</Name>
+	<ID>Slack_Technologies-Slack</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>slack.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">Slack\storage</Path>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">Slack\Local Storage</Path>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path>Slack</Path>
+			<FileMask>Cookies</FileMask>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path>Slack</Path>
+			<FileMask>Cookies-journal</FileMask>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path>Slack</Path>
+			<FileMask>local-settings.json</FileMask>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path>Slack</Path>
+			<FileMask>Preferences</FileMask>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
