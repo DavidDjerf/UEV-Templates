@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>MATLAB R2017a </Name>
+	<ID>Mathworks-Matlab-v-9-2-R2017a</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>MATLAB.exe</Filename>
+			<ProductVersion>
+				<Major Minimum="9" Maximum="9" />
+				<Minor Minimum="2" Maximum="2" />
+			</ProductVersion>
+			<FileVersion>
+				<Major Minimum="9" Maximum="9" />
+				<Minor Minimum="2" Maximum="2" />
+			</FileVersion>
+		</Process>
+	</Processes>
+	<Settings>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\Mathworks\MATLAB\9.2</Path>
+		</Registry>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">MathWorks\MATLAB\R2017a</Path>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
