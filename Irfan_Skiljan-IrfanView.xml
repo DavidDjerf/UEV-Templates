@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>IrfanView</Name>
+	<ID>Irfan_Skiljan-IrfanView</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>i_view32.exe</Filename>
+		</Process>
+		<Process>
+			<Filename>i_view64.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">IrfanView</Path>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
