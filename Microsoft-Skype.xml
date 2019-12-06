@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>Microsoft Skype</Name>
+	<ID>Microsoft-Skype</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>Skype.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<Registry>
+			<Path>SOFTWARE\Skype\Phone\UI\General</Path>
+			<Name>Language</Name>
+		</Registry>
+		<Registry>
+			<Path>SOFTWARE\Skype\ProtectedStorage</Path>
+		</Registry>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">Skype</Path>
+			<Exclude>
+				<Path>My Skype Received Files</Path>
+			</Exclude>
+			<Exclude>
+				<Path>Content</Path>
+			</Exclude>
+			<Exclude>
+				<Path>Pictures</Path>
+			</Exclude>
+			<Exclude>
+				<Path>shared_dynco</Path>
+			</Exclude>
+			<Exclude>
+				<Path>shared_httpfe</Path>
+			</Exclude>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
