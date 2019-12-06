@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>OBS Project OBS Studio</Name>
+	<ID>OBS_Project-OBS_Studio</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>obs32.exe</Filename>
+		</Process>
+		<Process>
+			<Filename>obs64.exe</Filename>
+		</Process> 
+	</Processes>
+	<Settings>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">obs-studio\basic</Path>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path>obs-studio</Path>
+			<FileMask>global.ini</FileMask>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">obs-studio\profiler_data</Path>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">obs-studio\plugin_config</Path>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
