@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>OVITO - Open Visualization Tool</Name>
+	<ID>ovito_org-ovito</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>ovito.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\Ovito</Path>
+		</Registry>
+	</Settings>
+</SettingsLocationTemplate>
