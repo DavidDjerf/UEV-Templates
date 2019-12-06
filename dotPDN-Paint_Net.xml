@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>dotPDN Paint.Net</Name>
+	<ID>dotPDN-Paint_Net</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>PaintDotNet.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<Registry>
+			<Path>SOFTWARE\paint.net</Path>
+		</Registry>
+	</Settings>
+</SettingsLocationTemplate>
