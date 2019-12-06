@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>Wolfram Mathematica</Name>
+	<ID>Wolfram-Mathematica</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>Mathematica.exe</Filename>
+		</Process>
+		<Process>
+			<Filename>MathKernel.exe</Filename>
+		</Process>
+		<Process>
+			<Filename>WolframKernel.exe</Filename>
+		</Process> 
+	</Processes>
+	<Settings>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">Mathematica</Path>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
