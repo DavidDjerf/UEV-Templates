@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>COMSOL Multiphysics 5.2</Name>
+	<ID>COMSOL-COMSOL_Multiphysics-v-5-2</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>comsol.exe</Filename>
+			<ProductVersion>
+				<Major Minimum="5" Maximum="5" />
+				<Minor Minimum="2" Maximum="2" />
+				<Build Minimum="0" Maximum="0" />
+				<Patch Minimum="0" Maximum="9999" />
+			</ProductVersion>
+			<FileVersion>
+				<Major Minimum="5" Maximum="5" />
+				<Minor Minimum="2" Maximum="2" />
+				<Build Minimum="0" Maximum="0" />
+				<Patch Minimum="0" Maximum="9999" />
+			</FileVersion>
+		</Process>
+	</Processes>
+	<Settings>
+		<File>
+			<Root>
+				<EnvironmentVariable>USERPROFILE</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">.comsol\v52</Path>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
