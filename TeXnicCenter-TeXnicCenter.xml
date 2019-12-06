@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>TeXnicCenter</Name>
+	<ID>TeXnicCenter-TeXnicCenter</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>TeXnicCenter.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\ToolsCenter\TeXnicCenterNT</Path>
+		</Registry>
+	</Settings>
+</SettingsLocationTemplate>
