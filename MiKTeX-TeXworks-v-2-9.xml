@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>MiKTeX TeXworks</Name>
+	<ID>MiKTeX-TeXworks-v-2-9</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>miktex-texworks.exe</Filename>
+			<ProductVersion>
+				<Major Minimum="2" Maximum="2" />
+				<Minor Minimum="9" Maximum="9" />
+			</ProductVersion>
+			<FileVersion>
+				<Major Minimum="2" Maximum="2" />
+				<Minor Minimum="9" Maximum="9" />
+			</FileVersion>
+		</Process>
+		<Process>
+			<Filename>mo.exe</Filename>
+			<ProductVersion>
+				<Major Minimum="2" Maximum="2" />
+				<Minor Minimum="9" Maximum="9" />
+			</ProductVersion>
+			<FileVersion>
+				<Major Minimum="2" Maximum="2" />
+				<Minor Minimum="9" Maximum="9" />
+			</FileVersion>
+		</Process>
+		<Process>
+			<Filename>miktex-update.exe</Filename>
+			<ProductVersion>
+				<Major Minimum="2" Maximum="2" />
+				<Minor Minimum="9" Maximum="9" />
+			</ProductVersion>
+			<FileVersion>
+				<Major Minimum="2" Maximum="2" />
+				<Minor Minimum="9" Maximum="9" />
+			</FileVersion>
+		</Process>
+		<Process>
+			<Filename>mpm_mfc.exe</Filename>
+			<ProductVersion>
+				<Major Minimum="2" Maximum="2" />
+				<Minor Minimum="9" Maximum="9" />
+			</ProductVersion>
+			<FileVersion>
+				<Major Minimum="2" Maximum="2" />
+				<Minor Minimum="9" Maximum="9" />
+			</FileVersion>
+		</Process>
+	</Processes>
+	<Settings>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\MiKTeX.org\MiKTeX\2.9</Path>
+		</Registry>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\TUG\TeXworks</Path>
+		</Registry>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">MiKTeX\2.9</Path>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">MiKTeX\2.9</Path>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
