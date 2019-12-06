@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>Eclipse</Name>
+	<ID>Eclipse_Foundation-Eclipse</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>eclipse.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<File>
+			<Root>
+				<EnvironmentVariable>USERPROFILE</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">workspace\.metadata</Path>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>USERPROFILE</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">.eclipse</Path>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
