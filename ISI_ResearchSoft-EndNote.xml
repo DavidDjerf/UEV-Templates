@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>ISI ResearchSoft EndNote</Name>
+	<ID>ISI_ResearchSoft-EndNote</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>David Djerf</Name>
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>EndNote.exe</Filename>
+		</Process>
+	</Processes>
+	<Settings>
+		<Registry>
+			<Path Recursive="true">SOFTWARE\ISI ResearchSoft\EndNote</Path>
+		</Registry>
+		<File>
+			<Root>
+				<EnvironmentVariable>APPDATA</EnvironmentVariable>
+			</Root>
+			<Path Recursive="true">EndNote</Path>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
