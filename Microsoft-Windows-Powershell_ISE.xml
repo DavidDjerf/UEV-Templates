@@ -1,4 +1,5 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file came from https://github.com/DavidDjerf/UEV-Templates -->
 <SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
 	<Name>Windows PowerShell ISE</Name>
 	<ID>Microsoft-Windows-Powershell_ISE</ID>
