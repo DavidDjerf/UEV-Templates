@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+	<Name>Microsoft Edge</Name>
+	<ID>Microsoft-Edge-Chromium</ID>
+	<Version>1</Version>
+	<Author>
+		<Name>Djerf</Name>		
+	</Author>
+	<Processes>
+		<Process>
+			<Filename>msedge.exe</Filename>
+			<ProductVersion>
+				<Major Minimum="79" Maximum="9999" />
+				<Minor Minimum="0" Maximum="0" />
+			</ProductVersion>
+			<FileVersion>
+				<Major Minimum="79" Maximum="9999" />
+				<Minor Minimum="0" Maximum="0" />
+			</FileVersion>
+		</Process>
+	</Processes>
+	<Settings>
+		<File>
+			<Root>
+				<EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+			</Root>
+			<Path>Microsoft\Edge\User Data\Default</Path>
+			<FileMask>Bookmarks</FileMask>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+			</Root>
+			<Path>Microsoft\Edge\User Data\Default</Path>
+			<FileMask>History</FileMask>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+			</Root>
+			<Path>Microsoft\Edge\User Data\Default</Path>
+			<FileMask>Preferences</FileMask>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+			</Root>
+			<Path>Google\Chrome\User Data\Default</Path>
+			<FileMask>Last Session</FileMask>
+		</File>
+		<File>
+			<Root>
+				<EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+			</Root>
+			<Path>Google\Chrome\User Data\Default</Path>
+			<FileMask>Last Tabs</FileMask>
+		</File>
+	</Settings>
+</SettingsLocationTemplate>
